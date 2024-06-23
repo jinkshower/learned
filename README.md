@@ -2,7 +2,8 @@
 
 
 ### Data Structure
-[Stack & Queue](https://github.com/jinkshower/learned/blob/main/DataStructure/StackAndQueue.md)
+[Stack & Queue](https://github.com/jinkshower/learned/blob/main/DataStructure/StackAndQueue.md)  
+
 [Heap](https://github.com/jinkshower/learned/blob/main/DataStructure/Heap.md)
 
 ### Java
