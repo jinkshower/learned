@@ -34,8 +34,6 @@ MMU와 TLB모두 가상메모리에 올라온 프로세스와 실제 물리 메�
 
 `Thread Interference`
 
-![Pasted image 20240625165005](https://github.com/jinkshower/learned/assets/135244018/1537ed39-8a8c-47f6-8f9c-7bde0c824099)
-
 ```java
 class Counter {
     private int c = 0;
@@ -70,7 +68,7 @@ B : c에 연산 결과를 저장한다 c = -1
 
 `Memory Consistency Error`
 
-![Pasted image 20240624160016](https://github.com/jinkshower/learned/assets/135244018/7dd2411c-7450-4d16-b075-80d61e021428)
+![Pasted image 20240625165005](https://github.com/jinkshower/learned/assets/135244018/1537ed39-8a8c-47f6-8f9c-7bde0c824099)
 
 쓰레드 A가 실행한 결과가 B에서 즉시 보이지 않을 때 일어나는 문제입니다. 해당 문제에 대한 해결 방법 중 하나는 volatile키워드를 사용하는 것입니다.
 
